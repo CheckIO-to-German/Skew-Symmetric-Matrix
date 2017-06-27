@@ -1,33 +1,30 @@
 <p>
-    In mathematics, particularly in linear algebra,
-    a skew-symmetric matrix(also known as an antisymmetric or antimetric) is a square matrix <strong>A</strong> whose transpose
-    is also its negative.
-    This means it satisfies the equation
-    <span style="white-space: nowrap">A = &minus;A<sup>T</sup>.</span>
-    If the entry in the i-th row and j-th&nbsp;column is a<sub>ij</sub>, i.e.
-    <span style="white-space: nowrap">A = (a<sub>ij</sub>)</span>
-    then the symmetric condition becomes
-    <span style="white-space: nowrap">a<sub>ij</sub> = &minus;a<sub>ji</sub>.</span>
+  In der Mathematik, insbesondere in der linearen Algebra, ist eine schiefsymmetrische
+  Matrix (auch antisymmetrische Matrix) eine quadratische Matrix A, deren Transponierte
+  gleich ihrem Negativen ist.<br>
+  Dies bedeutet, dass sie die Gleichung
+  <span style="white-space: nowrap">A = &minus;A<sup>T</sup></span>erfüllt.<br>
+  Wenn also der Eintrag in der i-ten Zeile und der j-ten Spalte a<sub>ij</sub> ist,
+  z.&nbsp;B. <span style="white-space: nowrap">A = (a<sub>ij</sub>)</span>, dann gilt
+  <span style="white-space: nowrap">a<sub>ij</sub> = -a<sub>ji</sub></span>.
 </p>
 <p>
-    You should determine whether the specified square matrix is skew-symmetric
-    or not.
+  Du sollst feststellen, ob die gegebene quadratische Matrix schiefsymmetrisch ist oder nicht.
 </p>
 <p>
-    You can find more details on Skew-symmetric matrices on its <a
-        href="http://en.wikipedia.org/wiki/Skew-symmetric_matrix"
-        target="_blank">Wikipedia page.</a>
+  Weitere Informationen zu schiefsymmetrischen Matrizen findest Du z. B. auf der entsprechenden
+  <a href="https://de.wikipedia.org/wiki/Schiefsymmetrische_Matrix"target="_blank">
+    Wikipediaseite
+  </a>.
 </p>
 
-<p><strong>Input: </strong> A square matrix as a list of lists with integers.</p>
-<p><strong>Output: </strong> If the matrix is skew-symmetric or not as a boolean.
-</p>
+<p><strong>Eingabe:</strong> Eine quadratische Matrix als Liste von Listen mit ganzen Zahlen (int).</p>
+<p><strong>Ausgabe:</strong> Ob die Matrix schiefsymmetrisch ist oder nicht, als boolescher Wert (True oder False).</p>
 
 <div class="for_info_only">
-
-    <p>
-        <strong>Example:</strong>
-    </p>
+  <p>
+    <strong>Beispiele:</strong>
+  </p>
 <pre class="brush: python">checkio([
     [ 0,  1,  2],
     [-1,  0,  1],
@@ -42,13 +39,14 @@ checkio([
     [-3, -1, 0]]) == False</pre>
 </div>
 
-
 <p class="for_info_only">
-    <strong>How it is used: </strong>
-    Skew-symmetric matrices can be useful for the cross product, an operation in mathematics used in the calculation of movement of forces.
-    Matrixes are basis for the linear algebra and vector graphics.
+  <strong>Wozu das gut ist:</strong><br>
+  Matrizen sind ein Schlüsselkonzept für die lineare Algebra und Vektorgrafiken.<br>
+  Schiefsymmetrische Matrizen können für das Bilden des Kreuzproduktes nützlich sein,
+  eine Operation in der Mathematik, die bei der Berechnung der Bewegung von Kräften
+  verwendet wird.
 </p>
-
 <p>
-    <strong>Precondition:</strong> 0 < N < 5<br>
+  <strong>Bedingungen:</strong><br>
+  0 < N < 5
 </p>
